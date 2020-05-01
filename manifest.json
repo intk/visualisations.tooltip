@@ -1,0 +1,21 @@
+{
+  "name": "Community Visualization",
+  "logoUrl": "https://avatars3.githubusercontent.com/u/1507038?s=200&v=4",
+  "organization": "INTK",
+  "supportUrl": "https://www.intk.com",
+  "packageUrl": "https://www.intk.com",
+  "privacyPolicyUrl": "https://www.intk.com",
+  "description": "Tooltip Community Visualisation for Data Studio",
+  "devMode": true,
+  "components": [{
+    "id": "tooltip",
+    "name": "Tooltip",
+    "iconUrl": "https://avatars3.githubusercontent.com/u/1507038?s=200&v=4",
+    "description": "Tooltip written in d3.js",
+    "resource": {
+      "js": "gs://intk-data-visualisation/tooltip/tooltip.js",
+      "config": "gs://intk-data-visualisation/tooltip/tooltip.json",
+      "css": "gs://intk-data-visualisation/tooltip/tooltip.css"
+    }
+  }]
+}
