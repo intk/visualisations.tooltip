@@ -1,8 +1,12 @@
 /* Provides styling for the visualization. */
 
-#myVizTitle {
-  color: black;
-  font-size: 24px;
-  text-align: center;
-  margin: 0 auto;
+button {
+	width:100px;
+	height:auto;
+	padding:20px 10px;
+	border:1px solid #ccc;
+}
+
+a {
+	color:#91C9E2;
 }
