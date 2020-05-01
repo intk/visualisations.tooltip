@@ -6,12 +6,17 @@
 </head>
 
 <body>
-    <button data-tippy-content="Reviews are important and allow you to see what people think of your organization.">Text</button>
-
+    <button data-tippy-content>Text</button>
+    <link rel="stylesheet" href="css/tooltip.css" />
     <script src="js/popper.min.js"></script>
     <script src="js/tippy-bundle.umd.min.js"></script>
      <script>
-    	tippy('[data-tippy-content]');
+    	tippy('[data-tippy-content]', {
+    		content: '<a href="https://www.intk.com/en/about" target="_blank">INTK</a> researches and develops digital strategies and creates critical interventions that reflect on art, technology and society.',
+    		allowHTML: true, // parse `content` strings as HTML
+    		interactive: true, // Tooltip can be hovered over and clicked inside without hiding
+    		interactiveBorder: 50, // Determines the size of the invisible border around the tippy that will prevent it from hiding if the cursor left it.
+    	});
     </script>
 </body>
 
