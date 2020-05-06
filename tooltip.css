@@ -1,6 +1,6 @@
 /* Provides styling for the visualization. */
 
-body {
+body, div {
 	font:400 11px system-ui;
 }
 
