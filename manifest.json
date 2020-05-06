@@ -9,7 +9,7 @@
   "devMode": true,
   "components": [{
     "id": "tooltip",
-    "name": "Tooltip",
+    "name": "Tooltip [DEV]",
     "iconUrl": "https://avatars3.githubusercontent.com/u/1507038?s=200&v=4",
     "description": "Tooltip written in d3.js",
     "resource": {
