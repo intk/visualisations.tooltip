@@ -1,5 +1,9 @@
 /* Provides styling for the visualization. */
 
+body {
+	font:400 11px system-ui;
+}
+
 button {
 	width:100px;
 	height:auto;

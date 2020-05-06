@@ -1,8 +1,15 @@
-button {
+body {
+	font:400 11px system-ui;
+}
+
+
+div#tooltipDiv {
 	width:100px;
 	height:auto;
 	padding:20px 10px;
+	display: block;
 	border:1px solid #ccc;
+	text-align: center;
 }
 
 a {
