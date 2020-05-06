@@ -1,19 +1,15 @@
 function drawTooltip(data) {
 
-	// Declare variable for tooltip text
-	let tooltipText = "";
+  // Declare variable for tooltip text
+  let tooltipText = data.style.tooltipText.value || "";
 
-	// Get tooltip text dimension
-	let rowData = data.tables.DEFAULT;
-	rowData.forEach(function(row, i) {
-
-    	// 'tooltipText' comes from the id defined in tooltip.json
-		tooltipText = JSON.stringify(row["tooltipText"][0]);
-
-	});
-
+  // Add link to tooltip text when available
+  if (data.style.tooltipLink.value.length > 1) {
+    tooltipText += ' <a href="'+data.style.tooltipLink.value+'" target="_blank" title="'+data.style.tooltipLinkText.value+'">'+data.style.tooltipLinkText.value+'</a>';
+  }
 
 	// create a button element where the tooltip will be displayed
+  document.body.innerHTML = "";
 	var buttonElement = document.createElement('button');
 	buttonElement.id = 'tooltipButton';
 	buttonElement.innerText = 'Hover this';

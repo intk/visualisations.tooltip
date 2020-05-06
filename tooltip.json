@@ -1,31 +1,26 @@
 {
   "data": [
-    {
-      "id": "concepts",
-      "label": "Concepts",
-      "elements": [
-        {
-          "id": "tooltipText",
-          "label": "Tooltip Text",
-          "type": "DIMENSION",
-          "options": {
-            "min": 1,
-            "max": 1
-          }
-        }
-      ]
-    }
   ],
   "style": [
     {
-      "id": "color",
-      "label": "Colors",
+      "id": "content",
+      "label": "Tooltip Properties",
       "elements": [
         {
-          "type": "FONT_COLOR",
-          "id": "barColor",
-          "label": "Bar Color",
-          "defaultValue": "black"
+          "type": "TEXTAREA",
+          "id": "tooltipText",
+          "label": "Tooltip Text"
+        },
+        {
+          "type": "TEXTINPUT",
+          "id": "tooltipLink",
+          "label": "Tooltip Link"
+        },
+        {
+          "type": "TEXTINPUT",
+          "id": "tooltipLinkText",
+          "label": "Text of Tooltip Link",
+          "defaultValue": "Read more"
         }
       ]
     }
