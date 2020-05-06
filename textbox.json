@@ -1,0 +1,27 @@
+{
+  "data": [
+  ],
+  "style": [
+    {
+      "id": "content",
+      "label": "Font and Paragraph",
+      "elements": [
+        {
+          "type": "FONT_COLOR",
+          "id": "fontColour",
+          "label": "Font Colour"
+        },
+        {
+          "type": "FONT_SIZE",
+          "id": "fontSize",
+          "label": "Font size"
+        },
+        {
+          "type": "FONT_FAMILY",
+          "id": "fontFamily",
+          "label": "Font"
+        }
+      ]
+    }
+  ]
+}

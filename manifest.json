@@ -9,13 +9,13 @@
   "devMode": true,
   "components": [{
     "id": "tooltip",
-    "name": "Tooltip [DEV]",
+    "name": "Textbox [DEV]",
     "iconUrl": "https://avatars3.githubusercontent.com/u/1507038?s=200&v=4",
-    "description": "Tooltip written in d3.js",
+    "description": "Textbox visualisation written in d3.js",
     "resource": {
-      "js": "gs://intk-data-visualisation/tooltip-dev/tooltip.js",
-      "config": "gs://intk-data-visualisation/tooltip-dev/tooltip.json",
-      "css": "gs://intk-data-visualisation/tooltip-dev/tooltip.css"
+      "js": "gs://intk-data-visualisation/textbox-dev/textbox.js",
+      "config": "gs://intk-data-visualisation/textbox-dev/textbox.json",
+      "css": "gs://intk-data-visualisation/textbox-dev/textbox.css"
     }
   }]
 }
