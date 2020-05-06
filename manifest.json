@@ -1,5 +1,5 @@
 {
-  "name": "Community Visualization [STAGE]",
+  "name": "Community Visualization [DEV]",
   "logoUrl": "https://avatars3.githubusercontent.com/u/1507038?s=200&v=4",
   "organization": "INTK",
   "supportUrl": "https://www.intk.com",
@@ -9,13 +9,13 @@
   "devMode": true,
   "components": [{
     "id": "tooltip",
-    "name": "Textbox [STAGE]",
+    "name": "Textbox [DEV]",
     "iconUrl": "https://avatars3.githubusercontent.com/u/1507038?s=200&v=4",
     "description": "Textbox visualisation written in d3.js",
     "resource": {
-      "js": "gs://intk-data-visualisation/textbox/textbox.js",
-      "config": "gs://intk-data-visualisation/textbox/textbox.json",
-      "css": "gs://intk-data-visualisation/textbox/textbox.css"
+      "js": "gs://intk-data-visualisation/textbox-dev/textbox.js",
+      "config": "gs://intk-data-visualisation/textbox-dev/textbox.json",
+      "css": "gs://intk-data-visualisation/textbox-dev/textbox.css"
     }
   }]
 }
