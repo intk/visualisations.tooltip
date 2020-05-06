@@ -2,6 +2,7 @@
 
 body, div {
 	font:400 11px system-ui;
+	word-wrap: break-word;
 }
 
 button {

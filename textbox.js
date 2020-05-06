@@ -30,11 +30,14 @@ function drawTooltip(data) {
   // Declare variable for tooltip text
   let tooltipText = data.style.content.value || "";
 
+  // Replace link in text with hyperlink
+  tooltipText = tooltipText.replace(/(https?:\/\/)([^\s]+)/g, '<a href="$1$2" target="_blank">$2</a>');
+
   // Create object where the text will be displayed
 	document.body.innerHTML = "";
 	var textElement = document.createElement('div');
 	textElement.id = 'tooltipText';
-	textElement.innerText = tooltipText;
+	textElement.innerHTML = tooltipText;
 
   // Get font colour from configuration
   const textColor =  data.style.fontColour.value
