@@ -4,22 +4,36 @@
   "style": [
     {
       "id": "content",
-      "label": "Font and Paragraph",
+      "label": "Content",
+      "elements": [
+        {
+          "type": "TEXTAREA",
+          "id": "content",
+          "label": "Textbox Text"
+        }
+      ]
+    },
+    {
+      "id": "fontStyle",
+      "label": "Font Style",
       "elements": [
         {
           "type": "FONT_COLOR",
           "id": "fontColour",
-          "label": "Font Colour"
+          "label": "Font Colour",
+          "defaultValue": "black"
         },
         {
           "type": "FONT_SIZE",
           "id": "fontSize",
-          "label": "Font size"
+          "label": "Font Size",
+          "defaultValue": "10"
         },
         {
           "type": "FONT_FAMILY",
           "id": "fontFamily",
-          "label": "Font"
+          "label": "Font Family",
+          "defaultValue": "Roboto"
         }
       ]
     }
