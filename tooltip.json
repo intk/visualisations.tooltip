@@ -12,17 +12,6 @@
           "label": "Tooltip Text"
         },
         {
-          "type": "TEXTINPUT",
-          "id": "tooltipLink",
-          "label": "Tooltip Link"
-        },
-        {
-          "type": "TEXTINPUT",
-          "id": "tooltipLinkText",
-          "label": "Text of Tooltip Link",
-          "defaultValue": "Read more"
-        },
-        {
           "type": "FILL_COLOR",
           "id": "tooltipButtonColor",
           "label": "Colour of tooltip button",
