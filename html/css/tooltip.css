@@ -1,15 +1,17 @@
 body {
 	font:400 11px system-ui;
+	margin:0;
+	padding:0;
 }
 
 
-div#tooltipDiv {
-	width:100px;
-	height:auto;
-	padding:20px 10px;
-	display: block;
-	border:1px solid #ccc;
-	text-align: center;
+button#tooltipButton {
+	width:25vw;
+	height:25vh;
+	display:inline-block;
+	border:none;
+	background-color:transparent;
+	overflow: visible;
 }
 
 a {

@@ -1,14 +1,18 @@
 /* Provides styling for the visualization. */
 
-body {
+body, div {
 	font:400 11px system-ui;
+	margin:0;
+	padding:0;
 }
 
 button {
-	width:100px;
-	height:auto;
-	padding:20px 10px;
-	border:1px solid #ccc;
+	width:30vw;
+	height:50vh;
+	display:inline-block;
+	border:none;
+	background-color:transparent;
+	overflow: visible;
 }
 
 a {
