@@ -7,12 +7,20 @@ body, div {
 }
 
 button {
-	width:30vw;
-	height:50vh;
+	width:25vw;
+	height:15vh;
 	display:inline-block;
+	position: absolute;
+	top:0;
+	left:0;
 	border:none;
 	background-color:transparent;
 	overflow: visible;
+}
+
+button#tooltipButton.bottom {
+	top:auto;
+	bottom:0;
 }
 
 a {

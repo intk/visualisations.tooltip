@@ -7,12 +7,22 @@ body {
 
 button#tooltipButton {
 	width:25vw;
-	height:25vh;
+	height:15vh;
 	display:inline-block;
+	position: absolute;
+	top:0;
+	left:0;
 	border:none;
-	background-color:transparent;
+	background-color:#ccc;
 	overflow: visible;
 }
+
+button#tooltipButton.bottom {
+	top:auto;
+	bottom:0;
+}
+
+
 
 a {
 	color:#91C9E2;

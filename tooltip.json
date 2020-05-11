@@ -16,6 +16,22 @@
           "id": "tooltipButtonColor",
           "label": "Colour of tooltip button",
           "defaultValue": "transparent"
+        },
+        {
+          "type": "SELECT_SINGLE",
+          "id": "tooltipPosition",
+          "label": "Tooltip Position",
+          "defaultValue": "bottom",
+          "options": [
+            {
+              "label": "Top",
+              "value": "top"
+            },
+            {
+              "label": "Bottom",
+              "value": "bottom"
+            }
+          ]
         }
       ]
     }
